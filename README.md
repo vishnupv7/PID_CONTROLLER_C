@@ -47,27 +47,27 @@ See the graphs in the `assets` folder for detailed visualizations.
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/vishnupv7/PID_CONTROLLER_C
+   
 Navigate to the project directory:
 
-bash
-Copy
-Edit
 cd PID_CONTROLLER
+
+
 Compile the C code:
 
-bash
-Copy
-Edit
+
 gcc -o PID_CONTROLLER src/PID_CONTROLLER.c
+
 Run the program:
 
-bash
-Copy
-Edit
 ./PID_CONTROLLER
+
+
 Prerequisites
+
 GCC compiler (or any C compiler of your choice).
 Basic understanding of PID controllers.
+
 Author
 Name: Vishnu PV
 GitHub: vishnupv7
