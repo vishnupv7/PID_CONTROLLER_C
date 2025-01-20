@@ -25,10 +25,11 @@ The goal of this project is to regulate motor speed using a PID controller. The 
 
 ## Project Structure
 
+PID_CONTROLLER/ | ├── assets/ # Images and graphs │ ├── test1.png # Graph for Test Case 1 │ ├── test2.png # Graph for Test Case 2 │ ├── test3.png # Graph for Test Case 3 │ ├── test4.png # Graph for Test Case 4 │ ├── docs/ # Technical documentation │ ├── technical_report.pdf # Final report │ ├── src/ # Source code files │ ├── PID_CONTROLLER.c # Your PID controller code │ ├── Makefile # If applicable │ ├── outputs/ # Log files or test case outputs │ ├── test_case_1.csv # Data for Test Case 1 │ ├── test_case_2.csv # Data for Test Case 2 │ ├── test_case_3.csv # Data for Test Case 3 │ ├── test_case_4.csv # Data for Test Case 4 │ ├── .gitignore # Exclude unnecessary files ├── README.md # Project overview and instructions └── LICENSE # (Optional) Licensing information
 
-
-
-
+markdown
+Copy
+Edit
 
 ## Results
 
@@ -39,24 +40,31 @@ Graphs showing speed vs. iterations for different test cases:
 - **Test Case 3**: Set Point = 100, Initial Speed = 50
 - **Test Case 4**: Set Point = 100, Initial Speed = 90
 
+See the graphs in the `assets` folder for detailed visualizations.
 
+## How to Run
 
-
-
-Clone the repository:
-git clone https://github.com/vishnupv7/PID_CONTROLLER_C
-
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/vishnupv7/PID_CONTROLLER_C
 Navigate to the project directory:
+
+bash
+Copy
+Edit
 cd PID_CONTROLLER
-
 Compile the C code:
+
+bash
+Copy
+Edit
 gcc -o PID_CONTROLLER src/PID_CONTROLLER.c
-
 Run the program:
+
+bash
+Copy
+Edit
 ./PID_CONTROLLER
-
-
-
 Prerequisites
 GCC compiler (or any C compiler of your choice).
 Basic understanding of PID controllers.
