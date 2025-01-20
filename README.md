@@ -39,16 +39,22 @@ Graphs showing speed vs. iterations for different test cases:
 - **Test Case 3**: Set Point = 100, Initial Speed = 50
 - **Test Case 4**: Set Point = 100, Initial Speed = 90
 
-See the graphs in the `assets` folder for detailed visualizations.
 
 
-Here's the corrected and properly formatted version of the section for your README file:
 
-How to Run
-Clone the repository:git clone https://github.com/vishnupv7/PID_CONTROLLER_C
-Navigate to the project directory:cd PID_CONTROLLER
-Compile the C code:gcc -o PID_CONTROLLER src/PID_CONTROLLER.c
-Run the program:./PID_CONTROLLER
+
+Clone the repository:
+git clone https://github.com/vishnupv7/PID_CONTROLLER_C
+
+Navigate to the project directory:
+cd PID_CONTROLLER
+
+Compile the C code:
+gcc -o PID_CONTROLLER src/PID_CONTROLLER.c
+
+Run the program:
+./PID_CONTROLLER
+
 
 
 Prerequisites
