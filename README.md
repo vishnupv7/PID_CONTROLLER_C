@@ -1,4 +1,10 @@
+# Save the current content in the canvas as a Word document
+from docx import Document
 
+# Create a Word document and add the content
+doc = Document()
+
+# Title
 doc.add_heading("PID Controller Implementation in C", level=1)
 
 # Sections and content
