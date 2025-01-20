@@ -1,6 +1,4 @@
-# Save the full README content into a text file for direct upload or copy-paste
 
-readme_content = """
 # PID Controller Implementation in C
 
 ## Overview
